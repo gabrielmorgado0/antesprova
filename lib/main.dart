@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:tese2k/pages/home_page.dart';
 import 'package:tese2k/pages/login.dart';
 
 void main() {
   runApp( MaterialApp(
-    home: LoginScreen(),
+    home: HomePage(),
   ));
 }
 
